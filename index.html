@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Giphy Party!</title>
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="row justify-content-center m-5">
+      <h1 class="display-4 text-light">GIPHY PARTY</h1>
+    </div>
+    <div class="row justify-content-center">
+      <form class="form-inline" id="searchForm">
+        <div class="form-group">
+          <input class="form-control form-control-lg m-1" type="text" id="search" placeholder="Enter a search name">
+          <button type="submit" class="btn btn-secondary btn-lg m-1" id="searchBtn">Search Giphy!</button>
+          <button type="button" class="btn btn-danger btn-lg m-1" id="RemoveBtn">Remove Images</button>
+        </div>
+      </form>
+    </div>
+    <div class="row" id='gifs'>
+
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
